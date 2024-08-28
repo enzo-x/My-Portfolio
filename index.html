@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Rejab AYOOB</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Rejab Ayoob</h1>
+                <h4 class="sub-heading">
+                    Iam A web Developer
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn">Hire Me</button>
+                <button class="btn ghost-btn">Get Resume</button>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+              My journey into the world of technology began with a fascination for how websites are built and function.
+              Over time, I have honed my skills in HTML, CSS, Bootstrap, and
+              JavaScript, allowing me to create fully responsive and visually
+              appealing websites. I have hands-on experience in developing and
+              deploying web applications, including a personal portfolio website
+              that showcases my projects and skills. I am also proficient in
+              using React, a powerful JavaScript library for building user
+              interfaces, and have worked on projects that involve creating
+              dynamic and interactive web applications. My background includes a
+              solid understanding of database concepts, where I have explored
+              various aspects such as architecture, recovery methods, and data
+              manipulation. 
+              
+            </p>
+            <p>
+              I am always eager to learn and adapt to new technologies and
+              trends in the industry. My problem-solving skills, attention to
+              detail, and commitment to continuous learning drive me to excel in
+              every project I undertake. Whether it's building a simple web
+              application or tackling complex coding challenges, I am motivated
+              to deliver high-quality results. In addition to my technical
+              skills, I have also worked on various assignments and projects
+              that involve DOM manipulation, JavaScript functions, and Promises.
+              My ability to work independently, coupled with my strong
+              communication and teamwork skills, enables me to collaborate
+              effectively with others and contribute to achieving project goals.
+              As I continue to grow in my career, I am excited to take on new
+              challenges and opportunities that allow me to expand my knowledge
+              and make a positive impact.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="./unnamed-fotor-202408201191.png" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section>
+      <div class="services" id="services">
+          <h1 class="sub-title">My <Span>Services</Span></h1>
+          <div class="services-list">
+              <div>
+                
+                  <h2>Front-end Developer</h2>
+                  <p>Translating design wireframes and mockups into code using HTML, CSS, and JavaScript.
+                    Ensuring that the user interface (UI) is responsive and works across different devices and screen sizes.</p>
+                 
+              </div>
+              <div>
+                
+                  <h2>Back-end Developer</h2>
+                  <p>Writing the logic that handles requests from the front end, processes data, and returns appropriate responses.
+                    Developing APIs (Application Programming Interfaces) that serve as a bridge between the front-end interface and the back-end server.</p>
+                
+              </div>
+              <div>
+                 
+                  <h2>React</h2>
+                  <p> Built around the concept of components, which are reusable, self-contained pieces of UI. Each component manages its own state and can be composed to build complex interfaces.</p>
+            
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">rejab1185@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 7558909462</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">Abid, Manzil Chittor</p>
+                    <p>ground Floor Lower</p>
+                    <p>Pathanamthitta, Kerala</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2023 All rights reserved |
+                This portfolio website template is created 
+                  by Me
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="./Main.js></script>
+</body>
+
+</html>
